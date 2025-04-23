@@ -1,0 +1,99 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    background-color: silver;
+}
+.block {
+    width: 225px;
+    height: 275px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+
+}
+.mainText {
+    font-size: 15px;
+    width: 88px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cross {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.cross:hover {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+.cardPing {
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: #FFD240;
+    margin: 0 auto 8px;
+    border-left: 5px solid #FF9900;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.cardContent {
+    font-size: 12px;
+}
+.cardBlue {
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: deepskyblue;
+    margin: 0 auto 8px;
+    border-left: 5px solid cornflowerblue;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.cardGreen {
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: darkseagreen;
+    margin: 0 auto 8px;
+    border-left: 5px solid green;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.cardPing:hover {
+    background-color: #FF9900;
+    text-decoration: underline;
+}
+.cardBlue:hover {
+    background-color: cornflowerblue;
+    text-decoration: underline;
+}
+.cardGreen:hover {
+    background-color: green;
+    text-decoration: underline;
+}
